@@ -5,7 +5,7 @@ POST http://localhost:3030/booking-slot/create/
 Content-Type: application/json
 
 {
-    "id": "3",
+    "id": "dsfsdfdsf",
     "name": "subash",
     "mobileNumber": "8015298158",
     "email": "scb@email",
