@@ -39,7 +39,7 @@ app.get('/booking-slot/user-details/', async (request, response) => {
 
 app.post('/booking-slot/create/', async (request, response) => {
     const {id, name, mobileNumber, email, date, time} = request.body
-    const getCreateBookingSlotQuery = `INSERT INTO user_details (id, name, mobile_number, email, date, time) VALUES (${id}, '${name}', ${mobileNumber}, '${email}', '${date}', '${time}');`
+    const getCreateBookingSlotQuery = `INSERT INTO user_details (id, name, mobile_number, email, date, time) VALUES ('${id}', '${name}', '${mobileNumber}', '${email}', '${date}', '${time}');`
     await db.run(getCreateBookingSlotQuery)
     response.send("Create Booking Slot Successfully")
 })
