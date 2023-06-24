@@ -1,0 +1,14 @@
+GET http://localhost:3030/booking-slot/user-details/
+###
+
+POST http://localhost:3030/booking-slot/create/
+Content-Type: application/json
+
+{
+    "id": 2,
+    "name": "subash",
+    "mobileNumber": 8015298158,
+    "email": "scb@email",
+    "date": "26/06/2023",
+    "time": "11:15 - 12:15"
+}
