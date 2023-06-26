@@ -5,10 +5,10 @@ POST http://localhost:3030/booking-slot/create/
 Content-Type: application/json
 
 {
-    "id": "dsfsdfdsf",
-    "name": "subash",
-    "mobileNumber": "8015298158",
-    "email": "scb@email",
-    "date": "26/06/2023",
+    "id": "6",
+    "name": "Krishna",
+    "mobileNumber": "8015298157",
+    "email": "krishna3@gmail.com",
+    "date": "02-07-2023 Sun",
     "time": "11:15 - 12:15"
 }
