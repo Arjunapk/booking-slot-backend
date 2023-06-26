@@ -3,6 +3,7 @@ GET http://localhost:3030/booking-slot/user-details/
 
 POST http://localhost:3030/booking-slot/create/
 Content-Type: application/json
+Accept: application/json
 
 {
     "id": "dsfsdfdsf",
